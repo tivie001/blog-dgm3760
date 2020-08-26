@@ -6,7 +6,6 @@ profile_picture:
   alt: website picture
 ---
 
-# Hello, my name is Tyler Ivie, Tivie for short.
 **What is the JAMStack?**
 * A JAMStack is a site that pre-renders all the files for you using JavaScript and don't necessarily depend on a web server to run. Most of these sites are built custom-made, NextJS, or what I used: Jekyll to get the work done.
 
