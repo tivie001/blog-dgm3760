@@ -9,15 +9,19 @@ profile_picture:
 # Hello, my name is Tyler Ivie, Tivie for short.
 **What is the JAMStack?**
 * A JAMStack is a site that pre-renders all the files for you using JavaScript and don't necessarily depend on a web server to run. Most of these sites are built custom-made, NextJS, or what I used: Jekyll to get the work done.
+
 **Why is it an important tool in web development?**
 * Faster development
 * Better and higher security
 * Better performance because files are pre-rendered
+
 **How can a web developer use the JAMStack?**
 * In about everything they do regarding web apps.
+
 **What tools did you use to bring up your blog?**
 * I used Jekyll to render my blog sites.
 * I also used Netlify to host it.
+
 **Why did you choose those tools?**
 * I used **Jekyll** because it was easy to develop and follow the documentation.
 * The integration with **Netlify** made it a lot more smooth as well to go live with the site.
