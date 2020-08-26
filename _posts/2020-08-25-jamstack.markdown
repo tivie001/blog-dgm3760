@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Blog Post #1 - Introduce Myself"
+title:  "Blog Post #2 - The JAMStack"
 profile_picture:
   src: /assets/memoji.jpg
   alt: website picture
