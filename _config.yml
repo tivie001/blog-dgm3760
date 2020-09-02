@@ -39,6 +39,7 @@ header:
     - name: Posts  # <-- blog.md
       slug: /Blog
     - name: About Me  # <-- whatever.md
+      slug: /About
 
 footer:
   show_powered_by: true
@@ -46,21 +47,16 @@ footer:
     - name: Email
       value: tsivie@gmail.com
       link: mailto:tsivie@gmail.com
-    - name: WeChat
-      value: YourWeChatUsername
-      link: "#"
   follow:
     - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
+      link: https://twitter.com/home
+      username: "@IvieWeb"
     - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
+      link: https://www.facebook.com/Ivie-Designs-609189572911773
     - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
+      link: https://www.linkedin.com/in/tyler-ivie-617742107/
     - name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - name: Weibo
-      link: http://weibo.com/u/YourWeiboUsername
+      link: https://github.com/tivie001
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

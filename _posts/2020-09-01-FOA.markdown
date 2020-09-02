@@ -1,0 +1,63 @@
+---
+layout: post
+title:  "Blog Post #3 - Functions, Objects, and Arrays"
+---
+![JavaScript Illustration](/assets/javascript-illustration.png)
+
+## What are functions in Javascript?
+Functions are blocks of code encased with the purpose to dynamically call, manipulate data and reuse functionality. From what
+I understand about *callback functions* are to call a particular piece of code whether it resolves (passes) or rejects (fail). 
+Promises objects in JS use callback functions to eventually run an operation upon successful or failure of the functions execution. Here
+is an example below of implementing a promise:
+```javascript
+const promiseFunc = new Promise(function(resolve, reject) {
+    resolve("Hello there")
+});
+promiseFunc.then((val) => {
+    return setTimeout(function () {
+        console.log("**Write a function that returns a promise, and after 2 seconds resolves with a value of \"Hello there\"**");
+        console.log("Waiting 2 seconds...");
+        return val;
+    }, 2000);
+
+});
+```
+
+## What are objects in Javascript?
+Objects are essentially collections of data. It is a data type within JS to store data. They can be defined in many ways:
+```javascript
+let obj = new Object();
+let anotherObj = {
+    key: value
+}
+const Person = function() {};
+```
+
+To loop over an object you do the following where prop is a key value pair:
+```javascript
+for (const prop in obj) {
+}
+```
+
+## What are Arrays in Javascript?
+Arrays are collections of data as well, but typically stored in a list form. A good example of an array is a list of full names.
+To loop over an array you may do either of the following:
+```javascript
+const newMap = array1.map(item => item + ' I love coding');
+array1.forEach(function(item, index) {
+     console.log(item, index)
+   })
+```
+
+## Write about at least one other thing you learned this week.
+One thing I learned more about was how to use functions to call other functions. And implementing callback functions in
+conjunction with it. Here is an example of a function calling another function: 
+```javascript
+function myFifthFunction(num) {
+    function returnedFunction(){
+        return num * 2;
+    }
+    return returnedFunction();
+}
+```
+
