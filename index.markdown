@@ -8,5 +8,4 @@ profile_picture:
 <p>
   Welcome to my blog. Go ahead and click on posts in the top right to see 
   what I have to say!
- 
 </p>
