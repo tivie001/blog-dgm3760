@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Blog Post #5 - Todo App"
+---
+![Todo App](/assets/todo-app.png)
+
+## Todo App
+Below is a basic todo app that allows the user to create, delete, and filter by category a list of todos.
+Some more features include: 
+- Click on a category to display all todos within said category.
+- Click on Show/Hide Completed to display completed todos or not.
+- Reset state of the app with 'Reset' button
+- Click anywhere on Todo text or checkbox to check it off!
+
+I designed the app based off the Reminders app that I had on my iPhone. The functionality was first designed with static
+values until I could imagine/design where things would go. They decided to create functions based off the functionality items
+that I mentioned above, like for example to display todos I implemented the function below:
+```javascript
+function getTodos(arr){
+    return arr.map(function(item) {
+        let newTodo = `<div class="todo-item">`
+        if (item.complete) {
+            newTodo += `<label class="checkbox-container strike-through" id=${item.id} onclick="completeTodoItem(this.id, event)">${item.todo}`
+            newTodo += `<input type="checkbox" checked>`
+        } else {
+            newTodo += `<label class="checkbox-container" id=${item.id} onclick="completeTodoItem(this.id, event)">${item.todo}`
+            newTodo += `<input type="checkbox">`
+        }
+
+        newTodo += `<span class="checkmark"></span></label>`
+        newTodo += `<img class="trash-icon" id=${item.id} src="assets/trash.svg" onclick="deleteTodo(this.id)"/></div>`
+        console.log(stateTodos);
+        return newTodo;
+    }).join(' ');
+}
+```
+I would then call certain functions to update the data that the user would interact with. I then designed how to create todos,
+delete them, and filter by a category. Each bit of functionality in its own function and scope of code. I also tried to implement
+next gen JS to as much as I could. To wrap up, I then researched local storage and how to maintain state through the browser.
+ 
+```javascript
+const localStorageKey = 'storageTodos';
+let categories = ["All Todos"];
+let stateTodos = JSON.parse(localStorage.getItem(localStorageKey)) || initialTodos;
+
+function addToLocalStorage(){
+    localStorage.setItem(localStorageKey, JSON.stringify(stateTodos));
+    document.getElementById("todosList").innerHTML = getTodos(stateTodos);
+}
+function clearStorage(){
+    localStorage.clear();
+    location.reload();
+}
+```
+
+### What challenges did you face in developing this application? How did you solve them?
+- One challenge that I had was manipulating css with JS. But after a bit of research on MDN I was able to solve the majority
+of my problems.
+- Another challenge was figuring out how local storage works. That was a bit tough, but I was an able figure it out use articles
+I found online with how the JS DOM methods to manipulate the state.
+
+### What would you do differently next time?
+What I would do different is use more out of the box methods in JS (i.e. setAttribute). I used a lot of getElementById when 
+I could created more elements and made my code look cleaner.
