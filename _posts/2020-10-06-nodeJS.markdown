@@ -34,14 +34,12 @@ massive html files all at once. On top of it all, it makes it easier to render d
 mustache syntax.
 
 ---------------------------------------
+Here are few example apps I made with NodeJS and Express:
 
-### Static Web Server
-https://node-static-web-server.herokuapp.com/
+### [Static Web Server](https://node-static-web-server.herokuapp.com/)
 ![Static Web Server](/assets/web-server.png)
-### API Server
-https://nodejs-api-server-dgm3760.herokuapp.com/api/characters
+### [API Server](https://nodejs-api-server-dgm3760.herokuapp.com/api/characters)
 ![API Server](/assets/api-server.png)
-### Web Server with Templating Engine
-https://nodejs-server-template-engine.herokuapp.com/
+### [Web Server with Templating Engine](https://nodejs-server-template-engine.herokuapp.com/)
 ![Web Server with Templating Engine](/assets/template.png)
 
