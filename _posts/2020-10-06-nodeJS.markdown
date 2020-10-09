@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Blog Post #6 - Node JS"
+---
+![Node JS](/assets/nodeJS.png)
+
+### What is Node JS?
+Before these assignments/lectures I thought Node JS was just strictly "server-side JavaScript". Which it is,
+but I learned that in a more general sense, Node JS is simply JavaScript outside the browser.
+
+### When do you use Node?
+You can use Node for many things, but a few I learned were:
+- Serving static web files from a folder to a static web server
+    - So, HTML, JS, CSS, images, etc. can be served from a server using NodeJS and ExpressJS
+- Serving API data
+    - Connect to an API and render JSON data to a webpage using NodeJS
+- You can render data from a database to a webpage using NodeJS
+- Or you basically just creating any backend application requiring auth, database, and server side security NodeJs
+is perfect for  
+
+### What are some ways that Node differs from JS in the browser?
+- First and foremost what came to mind Node does not have access to the DOM nor to any of the object methods that can
+manipulate the DOM
+- You can control what version of Node you are running instead of being dependent on the version the browser gives you 
+What is Express JS
+- Is a NodeJS application framework that provides a set of features for web applications and API's on the server. Express
+has made it easy to implement HTTP request to and from the backend and front end of applications I've built for the 
+latest NodeJS projects.
+
+### Why would a developer choose to use a Templating Engine? What Templating Engine did you choose and why?
+1. It makes displaying data on the front end of your application easy and clean to use. 
+2. When using Handlebars, I found it easy to compartmentalize each file into its own view and layout, so I'm not serving 
+massive html files all at once. On top of it all, it makes it easier to render dynamic data-driven applications with the 
+mustache syntax.
+
+---------------------------------------
+
+### Static Web Server
+https://node-static-web-server.herokuapp.com/
+![Static Web Server](/assets/web-server.png)
+### API Server
+https://nodejs-api-server-dgm3760.herokuapp.com/api/characters
+![API Server](/assets/api-server.png)
+### Web Server with Templating Engine
+![Web Server with Templating Engine](/assets/template.png)
