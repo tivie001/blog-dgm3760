@@ -42,4 +42,6 @@ https://node-static-web-server.herokuapp.com/
 https://nodejs-api-server-dgm3760.herokuapp.com/api/characters
 ![API Server](/assets/api-server.png)
 ### Web Server with Templating Engine
+https://nodejs-server-template-engine.herokuapp.com/
 ![Web Server with Templating Engine](/assets/template.png)
+
