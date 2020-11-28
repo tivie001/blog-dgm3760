@@ -11,7 +11,7 @@ title:  "Final Project Post #4 - Recipe App"
 #### What have you done this week?
 
 What I did this week: 
-* I'VE FINALLY FIGURED OUT HOW TO GET USE PICTURES FOR THE RECIPES! I decided to use an image API, Unsplash, to host all the 
+* I'VE FINALLY FIGURED OUT HOW TO SAVE PICTURES FOR THE RECIPES IN THE DATABASE! I decided to use an image API, Unsplash, to host all the 
 images and I just store the urls in my database. How it works is when a user toggles the modal to add a new
 recipe one of the options is to search for the dish they are making or something related to it. Then when the user clicks
 search it sends a request to Unsplashes API which then returns 20 images based of the users query. From there a user can
