@@ -22,6 +22,7 @@ What I did this week:
 * Test, test, test! Ensure app is working as it should be.
 * Fix weird styling bugs.
 * Cleanup code.
+* DEPLOY APP! YAY!
 
 #### What roadblocks did you encounter and what did you do to overcome them?
 
